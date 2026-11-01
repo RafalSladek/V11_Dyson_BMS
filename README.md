@@ -466,6 +466,10 @@ current compatibility discussion.
 
 ### Raspberry Pi GPIO
 
+For a staged V15 workflow with setup and cleanup scripts, see the
+[Raspberry Pi V15 plan](doc/raspberry-pi-v15.md). Its direct GPIO configuration
+is limited to Raspberry Pi 3 Model B/B+ and 4 Model B and requires hardware validation.
+
 Raspberry Pi GPIO flashing is a community method and is not currently maintained
 or validated by this repository. If experimenting with it, connect only `RST`,
 `SWDIO`, `SWCLK`, and `GND`. **Do not connect the Raspberry Pi 3.3 V pin to

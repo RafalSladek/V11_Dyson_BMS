@@ -1,0 +1,3 @@
+# Keep Pi scripts usable even in Windows checkouts with core.autocrlf enabled.
+scripts/*.sh text eol=lf
+scripts/tests/*.sh text eol=lf
